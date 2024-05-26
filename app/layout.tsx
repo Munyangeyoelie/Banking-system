@@ -11,7 +11,7 @@ const ibmPlexSerif = IBM_Plex_Serif({
 
 export const metadata: Metadata = {
   title: "Ngeyo Baking",
-  description: "Created by  Munyangeyo Elie",
+  description: "Ngeyo Baking is a mordern platform for every one",
 };
 
 export default function RootLayout({
