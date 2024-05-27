@@ -1,4 +1,3 @@
-"Use client";
 import React from "react";
 
 const HeaderBox = ({
