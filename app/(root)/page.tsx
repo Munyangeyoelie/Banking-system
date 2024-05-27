@@ -8,9 +8,10 @@ const Home = () => {
       <div className="home-content">
         <header className="home-header">
           <HeaderBox
-            type="gretting"
+            type="greeting"
             title="Welcome"
             user={loggedIn?.firstName || "Guest"}
+            subtext="Access and manage your account and transaction "
           />
         </header>
       </div>
