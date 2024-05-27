@@ -1,4 +1,4 @@
-"use client";
+"Use client";
 
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import { plugin } from "postcss";
