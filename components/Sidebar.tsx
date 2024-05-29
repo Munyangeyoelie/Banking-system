@@ -11,7 +11,10 @@ const Sidebar = ({ user }: SiderbarProps) => {
   return (
     <section className="sidebar">
       <nav className="flex flex-col gap-4">
-        <Link href="/" className="mb-12 cursor-pointer items-center gap-2 ">
+        <Link
+          href="/"
+          className="mb-12 cursor-pointer flex items-center gap-2 "
+        >
           <Image
             src="/Icons/logo.svg"
             width={34}
@@ -19,7 +22,7 @@ const Sidebar = ({ user }: SiderbarProps) => {
             alt="Company Logo"
             className="size-[24px]max-xl:size-14"
           />
-          <h1 className="sidebar-logo">Ngeyo Banking</h1>
+          <h1 className="sidebar-logo">NGEYOBank</h1>
         </Link>
         {sidebarLinks.map((item) => {
           const isActive =
