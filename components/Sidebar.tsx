@@ -22,7 +22,7 @@ const Sidebar = ({ user }: SiderbarProps) => {
             alt="Company Logo"
             className="size-[24px]max-xl:size-14"
           />
-          <h1 className="sidebar-logo">NGEYOBank</h1>
+          <h1 className="sidebar-logo">Ngeyo Banking </h1>
         </Link>
         {sidebarLinks.map((item) => {
           const isActive =
@@ -49,7 +49,9 @@ const Sidebar = ({ user }: SiderbarProps) => {
             </Link>
           );
         })}
+        User
       </nav>
+      Fotter
     </section>
   );
 };
