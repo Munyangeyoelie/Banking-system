@@ -1,7 +1,7 @@
 import React from "react";
 
 const Sidebar = ({ user }: SiderbarProps) => {
-  return <div>Sidebar</div>;
+  return <section className="sidebar"></section>;
 };
 
 export default Sidebar;
